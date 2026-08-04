@@ -1,0 +1,59 @@
+/*
+Theme Name: The Conference Child
+Theme URI: https://rarathemes.com/wordpress-themes/the-conference
+Template: the-conference
+Author: Rara Theme
+Author URI: https://rarathemes.com/
+Description: The Conference is a fully responsive and mobile-friendly free WordPress Theme designed to create an attractive and beautiful event and conference management website. This theme is suitable to create a professional event and conference website without writing a single line of code. Though this theme is focused on conference and event websites, it is a multipurpose theme which can be used to create other business and agency websites as well. This theme features a clean and attractive layout to keep the visitors engaged on the website and convert them into customers. You can create a fully functional and professional website with this theme without prior knowledge or experience in coding. You can showcase upcoming events, event stats, speakers of the events. The Conference Free WordPress Theme features multiple Call to Action buttons to make sure the visitors buy the event or conference tickets. This theme is developed with SEO friendly optimized codes to help your website rank high in Google and other search engines. Also, this theme is speed optimized so that your website loads instantly giving your visitors better user experience. This theme allows you to add your old client's testimonial to increase the trust level of visitors and turn them into customers. The Conference Free WordPress Theme features numerous advanced and easy-to-use features to help you create an interactive, user-friendly, and visually appealing website in no time. Some of the attractive features of this theme are Banner Section with CTA, Stat Counter Section, Recent Conferences/Events Section, Speaker section, Testimonial Section and CTA Section. It is a cross-browser compatible theme and is tested on all major browsers. This theme smoothly integrates popular WooCommerce plugin to help you create an online shop and also sell the event's ticket from your website. Furthermore, it is a translation ready theme and fully compatible with Polylang and WPML plugin to help you create your site in your regional language. Also, it is a highly customizable theme and comes with a built-in live customizer which helps you customize your website with live preview. You can enjoy regular free updates with this theme with added features. The Conference Free WordPress Theme is backed with the super-friendly and experienced support team to help you with your issues and queries. Check demo at https://demo.rarathemes.com/the-conference/, read the documentation at https://docs.rarathemes.com/docs/the-conference/, and get support at https://rarathemes.com/support-ticket/.
+Tags: one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,blog,e-commerce,portfolio
+Version: 1.1.2.1581672600
+Updated: 2020-02-14 09:30:00
+
+*/
+
+/* override theme css */
+.page-header .breadcrumb {visibility: hidden;}
+.site-banner .scroll-down {visibility: hidden;}
+.site-info .author-link, .site-info .wp-link {font-size: 8pt; color:#aaa;}
+
+/* override theme: home */
+home .about_section #raratheme_featured_page_widget-6 {padding-top:20px;}
+
+/* additional css */
+.sidebarsection-imptdate {}
+.sidebarsection-imptdate .evtgroup {font-weight: bold; text-decoration: underline;}
+.sidebarsection-imptdate .evttext {font-weight: bold; font-size:13px; margin-top: 8px;}
+.sidebarsection-imptdate .evtdate {font-size:13px; line-height: 13px;}
+.sidebarsection-imptdate hr {margin-top: 1em; margin-bottom: 1em;}
+
+.pg-committee {margin-top:15px;}
+.pg-committee .pg-committee-role {font-weight: bolder; font-size: 10pt; line-height: 10px; color:#aaa; text-transform: uppercase;}
+.pg-committee .pg-committee-pic {font-size: 16pt;}
+
+.pg-cohost {}
+.pg-cohost-feature-box-s {height: 200px; border: 5px solid #FFFFFF; border-radius: 10px; padding: 10px 5px;}
+.pg-cohost-feature-box {height: 270px; border: 2px solid #FFFFFF; border-radius: 10px; padding: 10px 5px;}
+
+.pg-register-conffee-table-container {}
+.pg-register-conffee-table-international {}
+.pg-register-conffee-tr-deadline {}
+.pg-register-conffee-tr-student {}
+.pg-register-conffee-tr-public {}
+.pg-register-payto {border-left: 4px solid #000; margin:0px; padding:0px 10px 0px 20px; background: none!important;}
+
+
+.pg-download {}
+.pg-download-link-group {padding-left: 2px!important; margin-top: 50px;}
+.pg-download-link-group li {display: block; margin: 10px 0px; padding: 10px 0px 20px; border-bottom: 1px solid #ccc;}
+.pg-download-link-group li:first-child {border-top: 1px solid #ccc; padding-top: 20px;}
+
+.pg-pubopt-table-container {width: 100%; overflow-x: hidden;}
+.pg-pubopt-table-container table {width: 100%;}
+.pg-pubopt-table-container table td {width: 20%; vertical-align: top;}
+.pg-pubopt-table-container table td label {text-align: center; font-size: 10pt; line-height: normal; display: block; margin-top: 8px; cursor: pointer;}
+.pg-pubopt-table-container table td img {width: 100%;}
+
+/** RESPONSIVE **/
+@media screen and (max-width: 1024px) {
+	.pg-pubopt-table-container {overflow-x: auto;}
+}
